@@ -118,10 +118,6 @@
         :code
       ]
       [
-        "/screens/final/final.gui"
-        :scene
-      ]
-      [
         "/assets/atlases/main.atlas"
         :scene
       ]
@@ -160,6 +156,10 @@
       [
         "/game.project"
         :cljfx-form-view
+      ]
+      [
+        "/screens/final/final.gui"
+        :scene
       ]
     ]
     :saved-colors [
