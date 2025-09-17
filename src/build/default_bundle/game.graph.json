@@ -1,0 +1,261 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/orthographic/render/orthographic.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "56d3501560c9eac6b0d6031672c8bb63083e3dff",
+  "children" : [ "/_generated_12b39558f3301caa.goc", "/orthographic/camera.goc", "/_generated_b0dc12b5bd89f295.goc", "/_generated_c13b81991b0e8c66.goc", "/_generated_b180ce31be2f31c5.goc", "/_generated_4709cb4e49e3ec98.goc" ]
+}, {
+  "path" : "/_generated_12b39558f3301caa.goc",
+  "hexDigest" : "42b527c277cd891b7b06ae29a1f1c0fd6bc13bca",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_ca1ce32c687d5409.collectionproxyc" ]
+}, {
+  "path" : "/monarch/screen_proxy.scriptc",
+  "hexDigest" : "a669a21260a1ae3066790122293ed57260aaaa62",
+  "children" : [ "/monarch/monarch.luac" ]
+}, {
+  "path" : "/monarch/monarch.luac",
+  "hexDigest" : "4f9a38100c864c5492a568f9a9b15d4530fc8f30",
+  "children" : [ "/monarch/utils/callback_tracker.luac", "/monarch/utils/async.luac" ]
+}, {
+  "path" : "/monarch/utils/callback_tracker.luac",
+  "hexDigest" : "77132bfaa6f16b6795377ac5c48384dd1e5ec315",
+  "children" : [ ]
+}, {
+  "path" : "/monarch/utils/async.luac",
+  "hexDigest" : "d125bee46e8f3186fd4f32dd8f4b0aac911f8a8b",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_ca1ce32c687d5409.collectionproxyc",
+  "hexDigest" : "88bcfbb3ee51c9112aa01737285e65fbdb45f854",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/screens/bonus_game/bonus_game.collectionc" ]
+}, {
+  "path" : "/screens/bonus_game/bonus_game.collectionc",
+  "hexDigest" : "700b327eb94bae551ed3ff59c5d9dca4339680c9",
+  "children" : [ "/_generated_1fe42d71ce08f767.goc" ]
+}, {
+  "path" : "/_generated_1fe42d71ce08f767.goc",
+  "hexDigest" : "c0a58eac660d1bff5b87bfd4c1e1951a5471369e",
+  "children" : [ "/screens/bonus_game/bonus_game.guic" ]
+}, {
+  "path" : "/screens/bonus_game/bonus_game.guic",
+  "hexDigest" : "866e03c07ce14777b79998646c77f4a37255434f",
+  "children" : [ "/screens/bonus_game/bonus_game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/questions.a.texturesetc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/screens/bonus_game/bonus_game.gui_scriptc",
+  "hexDigest" : "5017b7880a6fa7c8c9995a73a44d3288f511377c",
+  "children" : [ ]
+}, {
+  "path" : "/assets/fonts/font.fontc",
+  "hexDigest" : "452b8ec9838affe6948a09c990e8dfbe18f1d094",
+  "children" : [ "/builtins/fonts/font-df.materialc", "/_generated_MontserratAlternates-SemiBold_f03d7891e397b63a.glyph_bankc" ]
+}, {
+  "path" : "/builtins/fonts/font-df.materialc",
+  "hexDigest" : "caeb86001c8d4963edab6d15a3b40fcd2aa6e957",
+  "children" : [ "/shader_6592067761991147028.spc" ]
+}, {
+  "path" : "/shader_6592067761991147028.spc",
+  "hexDigest" : "d9bdcfbaf56c5cfc80d587ba6bec4e653956bde1",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_MontserratAlternates-SemiBold_f03d7891e397b63a.glyph_bankc",
+  "hexDigest" : "6113a98c23aa217d0547c2d81ab29604b0428834",
+  "children" : [ ]
+}, {
+  "path" : "/assets/atlases/questions.a.texturesetc",
+  "hexDigest" : "5e85053a428bad7737b6f9489b6df0e9661e7b0d",
+  "children" : [ "/assets/atlases/questions.texturec" ]
+}, {
+  "path" : "/assets/atlases/questions.texturec",
+  "hexDigest" : "4e5528128d58b2aa6c748d9312ffa3e9cbcc2e88",
+  "children" : [ ]
+}, {
+  "path" : "/assets/atlases/main.a.texturesetc",
+  "hexDigest" : "67191306c3c2515a2222bd03803dbbf7e1978bc8",
+  "children" : [ "/assets/atlases/main.texturec" ]
+}, {
+  "path" : "/assets/atlases/main.texturec",
+  "hexDigest" : "0c400cbda9ab63b2de506f9d8c032db501411ee0",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "ea4cbed1ddcc693822de188e07c6acc30e862c99",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/shader_2713870051161532414.spc",
+  "hexDigest" : "5ca30b7fbc34732d2761a36a6f95523190e79bdc",
+  "children" : [ ]
+}, {
+  "path" : "/orthographic/camera.goc",
+  "hexDigest" : "614a3cc07a33d25d8ff648db4ff27def0ed74a30",
+  "children" : [ "/orthographic/camera.scriptc", "/_generated_7da16a0ae6b03c96.camerac" ]
+}, {
+  "path" : "/orthographic/camera.scriptc",
+  "hexDigest" : "a107fd7027dd1d2c1d166bedb38222486a5c9a41",
+  "children" : [ "/orthographic/camera.luac" ]
+}, {
+  "path" : "/orthographic/camera.luac",
+  "hexDigest" : "6653cae1dc860acdefd512afbb30f1d265942d9f",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_7da16a0ae6b03c96.camerac",
+  "hexDigest" : "b02bc4088410828a01eb6601f048538029c5c724",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_b0dc12b5bd89f295.goc",
+  "hexDigest" : "c60fe75bcf76daefc4ce70134e7c6dbad4c14c07",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_eea23b97256fbeab.collectionproxyc" ]
+}, {
+  "path" : "/_generated_eea23b97256fbeab.collectionproxyc",
+  "hexDigest" : "14043d199fcb26066ea986f5afa322b331165d58",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/screens/final/final.collectionc" ]
+}, {
+  "path" : "/screens/final/final.collectionc",
+  "hexDigest" : "2607edf68b7d1628bdd83c7e38a3195124bdf2dd",
+  "children" : [ "/_generated_18365a230a342a6.goc" ]
+}, {
+  "path" : "/_generated_18365a230a342a6.goc",
+  "hexDigest" : "30fe6e2cf24a09443bf897f855dae57d4b8e004b",
+  "children" : [ "/screens/final/final.guic" ]
+}, {
+  "path" : "/screens/final/final.guic",
+  "hexDigest" : "9c7dd9e89f5310a456028cd8f3bdac866586887d",
+  "children" : [ "/screens/final/final.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/questions.a.texturesetc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/screens/final/final.gui_scriptc",
+  "hexDigest" : "ab6af6157d5d1d74f70dc6aa8e5e540dc220d787",
+  "children" : [ "/monarch/monarch.luac", "/common/button.luac" ]
+}, {
+  "path" : "/common/button.luac",
+  "hexDigest" : "d1816d76d91609c28c8635072c5a7f6273562950",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_c13b81991b0e8c66.goc",
+  "hexDigest" : "6bb1942f1bcb5f9e337287128e92af18c89d1dfd",
+  "children" : [ "/main/main.scriptc", "/_generated_676393875f03f969.spritec" ]
+}, {
+  "path" : "/main/main.scriptc",
+  "hexDigest" : "acabb80bcd780cbb0e224551e512bf0bf00977ce",
+  "children" : [ "/screens/screens.luac", "/monarch/monarch.luac", "/orthographic/camera.luac", "/common/save_data.luac", "/common/texts.luac", "/common/utils.luac" ]
+}, {
+  "path" : "/screens/screens.luac",
+  "hexDigest" : "a4404186c693504dff63eaa30f2bf87e496da2b0",
+  "children" : [ ]
+}, {
+  "path" : "/common/save_data.luac",
+  "hexDigest" : "7946ebdf0cf8bf79a4da0b9df62fa3fc76360fc5",
+  "children" : [ "/ludobits/m/io/savetable.luac" ]
+}, {
+  "path" : "/ludobits/m/io/savetable.luac",
+  "hexDigest" : "214970d1b027767a1a5579d85e181c925409057e",
+  "children" : [ "/ludobits/m/io/savefile.luac", "/ludobits/m/io/file.luac", "/ludobits/m/json.luac" ]
+}, {
+  "path" : "/ludobits/m/io/savefile.luac",
+  "hexDigest" : "46b0489d76d1f16686d8a814dc072b4d237b5843",
+  "children" : [ "/ludobits/m/io/file.luac" ]
+}, {
+  "path" : "/ludobits/m/io/file.luac",
+  "hexDigest" : "53391ee9cf0be9abb27994086fc3f934605e908a",
+  "children" : [ ]
+}, {
+  "path" : "/ludobits/m/json.luac",
+  "hexDigest" : "c3aa0eba2eead41277084b70f0a310042503ff0d",
+  "children" : [ ]
+}, {
+  "path" : "/common/texts.luac",
+  "hexDigest" : "8ff26dc09f6e03d5b683c4e4f7fb62db0afb4498",
+  "children" : [ ]
+}, {
+  "path" : "/common/utils.luac",
+  "hexDigest" : "af575ac44f626321cc11a8e877626160f3d8f499",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_676393875f03f969.spritec",
+  "hexDigest" : "cd6bbd7d4ad9185c6f7e4a08a9aaf4e4fd3baa06",
+  "children" : [ "/builtins/materials/sprite.materialc", "/assets/atlases/main.a.texturesetc" ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "5fcb8d2abe470a02e6bf66ea5032b911c6109f57",
+  "children" : [ "/shader_-7170045909771754498.spc" ]
+}, {
+  "path" : "/shader_-7170045909771754498.spc",
+  "hexDigest" : "8137f5b1f85c46d79f0883c5913b87291d8cce18",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_b180ce31be2f31c5.goc",
+  "hexDigest" : "1965512272100e391896a22ace7d41ea3ef4b6bb",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_274e7e5aca7bf32a.collectionproxyc" ]
+}, {
+  "path" : "/_generated_274e7e5aca7bf32a.collectionproxyc",
+  "hexDigest" : "d5e199ae7d87304ff4f511bfebfaeccbd66dfb44",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/screens/menu/menu.collectionc" ]
+}, {
+  "path" : "/screens/menu/menu.collectionc",
+  "hexDigest" : "22b98d9556306ebebfa10f5818d4b02a4372b9b8",
+  "children" : [ "/_generated_94f2485baf77f870.goc" ]
+}, {
+  "path" : "/_generated_94f2485baf77f870.goc",
+  "hexDigest" : "13b622e1fc2ac02535add3dbe4e2bcec703e2e48",
+  "children" : [ "/screens/menu/menu.guic" ]
+}, {
+  "path" : "/screens/menu/menu.guic",
+  "hexDigest" : "3d044f68da89d7fd8354b2a3764d643ae2a9c592",
+  "children" : [ "/screens/menu/menu.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/questions.a.texturesetc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/screens/menu/menu.gui_scriptc",
+  "hexDigest" : "55b66b94ae46b4fbcc63cc444f8ff91430a75312",
+  "children" : [ "/monarch/monarch.luac", "/common/button.luac" ]
+}, {
+  "path" : "/_generated_4709cb4e49e3ec98.goc",
+  "hexDigest" : "0e6eecadc875e59acb5de2f8ebe57e58505f1020",
+  "children" : [ "/monarch/screen_proxy.scriptc", "/_generated_85487c614475299e.collectionproxyc" ]
+}, {
+  "path" : "/_generated_85487c614475299e.collectionproxyc",
+  "hexDigest" : "96b3c84c613244e7418860866b6b14872773e53e",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/screens/victorina/victorina.collectionc" ]
+}, {
+  "path" : "/screens/victorina/victorina.collectionc",
+  "hexDigest" : "35bb40413736eb72f4fd3bbb51760a0bd189381f",
+  "children" : [ "/_generated_739c71203fa11102.goc" ]
+}, {
+  "path" : "/_generated_739c71203fa11102.goc",
+  "hexDigest" : "8ddba8d533b49e9140e62b3d256daaf5bdacea4c",
+  "children" : [ "/screens/victorina/victorina.guic" ]
+}, {
+  "path" : "/screens/victorina/victorina.guic",
+  "hexDigest" : "1e98039f41d14efb13da94a5e42d1a3b4dfa67ae",
+  "children" : [ "/screens/victorina/victorina.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/questions.a.texturesetc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/screens/victorina/victorina.gui_scriptc",
+  "hexDigest" : "414d14239132712f1439cadaa5201db0b738a4ce",
+  "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/victorina/victorina.luac" ]
+}, {
+  "path" : "/screens/victorina/victorina.luac",
+  "hexDigest" : "5a83925fdbe2da74e77e6dff67cace368f195202",
+  "children" : [ ]
+}, {
+  "path" : "/orthographic/render/orthographic.renderc",
+  "hexDigest" : "84af281824abd184517efc3417985aa5ce04a478",
+  "children" : [ "/orthographic/render/orthographic.render_scriptc" ]
+}, {
+  "path" : "/orthographic/render/orthographic.render_scriptc",
+  "hexDigest" : "fe3d848036d6cd5180587fa020fb5d9868eaa24a",
+  "children" : [ "/orthographic/camera.luac" ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "9b525bf47b7a7a9c35ad9b07723421404c35dc0f",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "232176928f9206a6b03626ef40cbf206f1607150",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+} ]

@@ -1,0 +1,10 @@
+name: "victorina"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  data: "components {\n"
+  "  id: \"monarch\"\n"
+  "  component: \"/screens/victorina/victorina.gui\"\n"
+  "}\n"
+  ""
+}

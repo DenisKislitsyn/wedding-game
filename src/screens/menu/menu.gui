@@ -1,0 +1,121 @@
+script: "/screens/menu/menu.gui_script"
+fonts {
+  name: "font"
+  font: "/assets/fonts/font.font"
+}
+textures {
+  name: "questions"
+  texture: "/assets/atlases/questions.atlas"
+}
+textures {
+  name: "main"
+  texture: "/assets/atlases/main.atlas"
+}
+nodes {
+  position {
+    x: 960.0
+    y: 540.0
+  }
+  size {
+    x: 1920.0
+    y: 1080.0
+  }
+  type: TYPE_BOX
+  id: "root"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+  visible: false
+}
+nodes {
+  position {
+    y: 300.0
+  }
+  scale {
+    x: 1.3
+    y: 1.3
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\241\320\262\320\260\320\264\320\265\320\261\320\275\320\260\321\217 \320\262\320\270\320\272\321\202\320\276\321\200\320\270\320\275\320\260\n"
+  "\320\220\320\275\321\202\320\276\320\275\320\260 \320\270 \320\222\320\265\321\200\320\276\320\275\320\270\320\272\320\270"
+  font: "font"
+  id: "title"
+  parent: "root"
+  layer: "text"
+  inherit_alpha: true
+  outline_alpha: 0.0
+}
+nodes {
+  position {
+    y: -300.0
+  }
+  type: TYPE_BOX
+  texture: "main/button"
+  id: "play"
+  parent: "root"
+  layer: "node"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    y: 10.0
+  }
+  scale {
+    x: 0.8
+    y: 0.8
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.102
+    y: 0.102
+    z: 0.102
+  }
+  type: TYPE_TEXT
+  text: "\320\235\320\260\321\207\320\260\321\202\321\214\n"
+  ""
+  font: "font"
+  id: "play_text"
+  parent: "play"
+  layer: "text"
+  inherit_alpha: true
+  outline_alpha: 0.0
+}
+nodes {
+  position {
+    y: 38.0
+  }
+  scale {
+    x: 0.8
+    y: 0.8
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\237\321\200\320\260\320\262\320\270\320\273\320\260\n"
+  "\320\247\320\265\320\274 \320\273\321\203\321\207\321\210\320\265 \320\267\320\275\320\260\320\265\321\210\321\214 - \321\202\320\265\320\274 \320\262\321\213\321\210\320\265 \320\261\320\260\320\273\320\273"
+  font: "font"
+  id: "title1"
+  parent: "root"
+  layer: "text"
+  inherit_alpha: true
+  outline_alpha: 0.0
+}
+layers {
+  name: "node"
+}
+layers {
+  name: "text"
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
+max_nodes: 5
+max_dynamic_textures: 2

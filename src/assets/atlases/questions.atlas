@@ -1,0 +1,52 @@
+images {
+  image: "/assets/images/imgs/fq1.JPG"
+}
+images {
+  image: "/assets/images/imgs/fq2.png"
+}
+images {
+  image: "/assets/images/imgs/fq4.jpg"
+}
+images {
+  image: "/assets/images/imgs/fq6.png"
+}
+images {
+  image: "/assets/images/imgs/fq7.png"
+}
+images {
+  image: "/assets/images/imgs/mq1.png"
+}
+images {
+  image: "/assets/images/imgs/mq2.png"
+}
+images {
+  image: "/assets/images/imgs/mq3.png"
+}
+images {
+  image: "/assets/images/imgs/mq4.png"
+}
+images {
+  image: "/assets/images/imgs/mq5.png"
+}
+images {
+  image: "/assets/images/imgs/mq7.png"
+}
+images {
+  image: "/assets/images/imgs/mq8.png"
+}
+images {
+  image: "/assets/images/imgs/mq9.png"
+}
+images {
+  image: "/assets/images/imgs/fq3.jpg"
+}
+images {
+  image: "/assets/images/imgs/fq5.png"
+}
+images {
+  image: "/assets/images/imgs/mq9.1.png"
+}
+images {
+  image: "/assets/images/imgs/mq5.1.png"
+}
+extrude_borders: 2

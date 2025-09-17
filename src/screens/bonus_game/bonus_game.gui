@@ -1,0 +1,102 @@
+script: "/screens/bonus_game/bonus_game.gui_script"
+fonts {
+  name: "font"
+  font: "/assets/fonts/font.font"
+}
+textures {
+  name: "questions"
+  texture: "/assets/atlases/questions.atlas"
+}
+textures {
+  name: "main"
+  texture: "/assets/atlases/main.atlas"
+}
+nodes {
+  position {
+    x: 960.0
+    y: 540.0
+  }
+  size {
+    x: 1920.0
+    y: 1080.0
+  }
+  type: TYPE_BOX
+  id: "root"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+  visible: false
+}
+nodes {
+  position {
+    y: 412.0
+  }
+  scale {
+    x: 1.3
+    y: 1.3
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\221\320\276\320\275\321\203\321\201\320\275\320\260\321\217 \320\270\320\263\321\200\320\260!"
+  font: "font"
+  id: "title"
+  parent: "root"
+  layer: "text"
+  inherit_alpha: true
+  outline_alpha: 0.0
+}
+nodes {
+  position {
+    y: 304.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\235\320\260\320\271\320\264\320\270 10 \320\276\321\202\320\273\320\270\321\207\320\270\320\271"
+  font: "font"
+  id: "title1"
+  parent: "root"
+  layer: "text"
+  inherit_alpha: true
+  outline_alpha: 0.0
+}
+nodes {
+  position {
+    x: -400.0
+    y: -80.0
+  }
+  type: TYPE_BOX
+  texture: "questions/mq5"
+  id: "box"
+  parent: "root"
+  layer: "node"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 400.0
+    y: -80.0
+  }
+  type: TYPE_BOX
+  texture: "questions/mq5.1"
+  id: "box1"
+  parent: "root"
+  layer: "node"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+layers {
+  name: "node"
+}
+layers {
+  name: "text"
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
+max_nodes: 7
+max_dynamic_textures: 2

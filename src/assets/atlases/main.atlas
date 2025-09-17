@@ -1,0 +1,43 @@
+images {
+  image: "/assets/images/button.png"
+}
+images {
+  image: "/assets/images/empty.png"
+}
+images {
+  image: "/assets/images/popup_bg.png"
+}
+images {
+  image: "/assets/images/bg.png"
+}
+images {
+  image: "/assets/images/table.png"
+}
+images {
+  image: "/assets/images/bride.png"
+}
+images {
+  image: "/assets/images/groom.png"
+}
+images {
+  image: "/assets/images/question.png"
+}
+images {
+  image: "/assets/images/m_happy.png"
+}
+images {
+  image: "/assets/images/m_normal.png"
+}
+images {
+  image: "/assets/images/m_angry.png"
+}
+images {
+  image: "/assets/images/f_normal.png"
+}
+images {
+  image: "/assets/images/f_happy.png"
+}
+images {
+  image: "/assets/images/f_sad.png"
+}
+extrude_borders: 2

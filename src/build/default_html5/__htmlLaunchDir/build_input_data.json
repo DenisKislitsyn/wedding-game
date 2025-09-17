@@ -1,0 +1,18 @@
+{
+  "bob_arguments" : {
+    "sha1" : "7c81792859a6da7f7401c0ac37a4cc83bb500ff6",
+    "version" : "1.11.0",
+    "timestamp" : "2025-09-04 12:54:20"
+  },
+  "defold_sdk" : "7c81792859a6da7f7401c0ac37a4cc83bb500ff6",
+  "dependencies" : [ {
+    "link" : "https://github.com/britzl/ludobits/archive/refs/tags/7.5.0.zip",
+    "md5" : "4C4330257B8CCA8F445EBCB1B61570AE"
+  }, {
+    "link" : "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.4.0.zip",
+    "md5" : "6145181B4CF7433B8E156A965EE0CBB0"
+  }, {
+    "link" : "https://github.com/britzl/monarch/archive/refs/tags/5.1.1.zip",
+    "md5" : "C9ABEFCC006FD0C00CB9267A42380B71"
+  } ]
+}

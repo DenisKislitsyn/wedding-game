@@ -1,0 +1,172 @@
+{
+  :bundle {
+    :html5 {
+      :architectures #{
+        "js-web"
+        "wasm-web"
+        "wasm_pthread-web"
+      }
+      :build_report false
+      :contentless false
+      :liveupdate false
+      :texture_compression "enabled"
+      :variant "release"
+      :with_symbols false
+    }
+    :last-bundle-command :project.bundle-html5
+    :output-directory "/Users/Denis/Desktop/builds1/omg/qqqq"
+  }
+  :code {
+    :find {
+      :case-sensitive false
+      :term "hide"
+      :whole-word false
+    }
+  }
+  :open-assets {
+    :term "main"
+  }
+  :search-in-files {
+    :exts ""
+    :include-libraries true
+    :term "go.property"
+  }
+  :workflow {
+    :recent-files [
+      [
+        "/screens/game/modules/game_utils.lua"
+        :code
+      ]
+      [
+        "/screens/game/modules/word.lua"
+        :code
+      ]
+      [
+        "/screens/game/modules/line.lua"
+        :code
+      ]
+      [
+        "/common/utils.lua"
+        :code
+      ]
+      [
+        "/screens/win_screen/win_screen.gui_script"
+        :code
+      ]
+      [
+        "/screens/reload_game_screen/reload_game_screen.gui_script"
+        :code
+      ]
+      [
+        "/screens/game/modules/input_letter.lua"
+        :code
+      ]
+      [
+        "/screens/game/modules/cell.lua"
+        :code
+      ]
+      [
+        "/screens/game/game.gui_script"
+        :code
+      ]
+      [
+        "/screens/game/game.gui"
+        :scene
+      ]
+      [
+        "/monarch/monarch.lua"
+        :code
+      ]
+      [
+        "/screens/victorina/victorina.collection"
+        :scene
+      ]
+      [
+        "/game.appmanifest"
+        :code
+      ]
+      [
+        "/assets/fonts/font.font"
+        :scene
+      ]
+      [
+        "/main/main.script"
+        :code
+      ]
+      [
+        "/screens/final/final.collection"
+        :scene
+      ]
+      [
+        "/screens/menu/menu.collection"
+        :scene
+      ]
+      [
+        "/screens/menu/menu.gui"
+        :scene
+      ]
+      [
+        "/screens/menu/victorina.gui_script"
+        :code
+      ]
+      [
+        "/screens/victorina/victorina.gui"
+        :scene
+      ]
+      [
+        "/screens/victorina/victorina.gui_script"
+        :code
+      ]
+      [
+        "/screens/final/final.gui"
+        :scene
+      ]
+      [
+        "/assets/atlases/main.atlas"
+        :scene
+      ]
+      [
+        "/screens/victorina/victorina.lua"
+        :code
+      ]
+      [
+        "/screens/screens.lua"
+        :code
+      ]
+      [
+        "/screens/final/final.gui_script"
+        :code
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
+        "/screens/bonus_game/bonus_game.gui_script"
+        :code
+      ]
+      [
+        "/assets/atlases/questions.atlas"
+        :scene
+      ]
+      [
+        "/screens/bonus_game/bonus_game.gui"
+        :scene
+      ]
+      [
+        "/screens/bonus_game/bonus_game.collection"
+        :scene
+      ]
+      [
+        "/game.project"
+        :cljfx-form-view
+      ]
+    ]
+    :saved-colors [
+      "#bd6565ff"
+      "#e54343ff"
+      "#0b004bff"
+      "#5c17fdff"
+    ]
+  }
+}
