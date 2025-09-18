@@ -42,12 +42,13 @@ function init(self)
 				gui.set_text(self['node_' .. side], self['score_' .. side])
 				if self['score_' .. side] >= data.score[side == 1 and 2 or 1] then
 					timer.cancel(self.timer_3)
+					gui.set_enabled(gui.get_node('aaaa'), true)
 				end
 			end)
 		end)
 	end
 
-	timer.delay(10, false, function ()
+	timer.delay(15, false, function ()
 		monarch.show(monarch.scr.bonus_game)
 	end)
 end

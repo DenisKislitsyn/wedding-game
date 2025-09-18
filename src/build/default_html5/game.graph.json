@@ -45,7 +45,7 @@
   "children" : [ "/screens/bonus_game/bonus_game.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/questions.a.texturesetc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/bonus_game/bonus_game.gui_scriptc",
-  "hexDigest" : "5017b7880a6fa7c8c9995a73a44d3288f511377c",
+  "hexDigest" : "b8812887c2011ad52d9aace1749d20de215dd8bc",
   "children" : [ ]
 }, {
   "path" : "/assets/fonts/font.fontc",
@@ -122,11 +122,11 @@
   "children" : [ "/screens/final/final.guic" ]
 }, {
   "path" : "/screens/final/final.guic",
-  "hexDigest" : "9c7dd9e89f5310a456028cd8f3bdac866586887d",
+  "hexDigest" : "4905e257c740d21a3d28b4e9d84139a8425e0830",
   "children" : [ "/screens/final/final.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/questions.a.texturesetc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/final/final.gui_scriptc",
-  "hexDigest" : "ab6af6157d5d1d74f70dc6aa8e5e540dc220d787",
+  "hexDigest" : "c632338d5a0ebce80f5a171b8df2c412f95eb8bc",
   "children" : [ "/monarch/monarch.luac", "/common/button.luac" ]
 }, {
   "path" : "/common/button.luac",
@@ -138,11 +138,11 @@
   "children" : [ "/main/main.scriptc", "/_generated_676393875f03f969.spritec" ]
 }, {
   "path" : "/main/main.scriptc",
-  "hexDigest" : "acabb80bcd780cbb0e224551e512bf0bf00977ce",
+  "hexDigest" : "dcd9d6f28ad3c6efeac8cde62285142bbe01737b",
   "children" : [ "/screens/screens.luac", "/monarch/monarch.luac", "/orthographic/camera.luac", "/common/save_data.luac", "/common/texts.luac", "/common/utils.luac" ]
 }, {
   "path" : "/screens/screens.luac",
-  "hexDigest" : "a4404186c693504dff63eaa30f2bf87e496da2b0",
+  "hexDigest" : "3d19bed84f230e84b42c390c9a40572145f7c885",
   "children" : [ ]
 }, {
   "path" : "/common/save_data.luac",
@@ -232,11 +232,11 @@
   "children" : [ "/screens/victorina/victorina.gui_scriptc", "/assets/fonts/font.fontc", "/assets/atlases/questions.a.texturesetc", "/assets/atlases/main.a.texturesetc", "/builtins/materials/gui.materialc" ]
 }, {
   "path" : "/screens/victorina/victorina.gui_scriptc",
-  "hexDigest" : "414d14239132712f1439cadaa5201db0b738a4ce",
+  "hexDigest" : "b4da835b5e7bd5898fefcdd5483fd230a0ac9ee8",
   "children" : [ "/monarch/monarch.luac", "/common/button.luac", "/screens/victorina/victorina.luac" ]
 }, {
   "path" : "/screens/victorina/victorina.luac",
-  "hexDigest" : "5a83925fdbe2da74e77e6dff67cace368f195202",
+  "hexDigest" : "a532f9ed50c27451cbb8efb4460e4ddd749bd1b1",
   "children" : [ ]
 }, {
   "path" : "/orthographic/render/orthographic.renderc",

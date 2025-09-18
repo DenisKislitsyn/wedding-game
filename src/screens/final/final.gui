@@ -168,6 +168,26 @@ nodes {
   outline_alpha: 0.0
   shadow_alpha: 0.0
 }
+nodes {
+  position {
+    y: -196.0
+  }
+  size {
+    x: 1400.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\222\321\213 \320\270\320\264\320\265\320\260\320\273\321\214\320\275\320\276 \320\264\321\200\321\203\320\263 \320\264\321\200\321\203\320\263\320\260 \320\267\320\275\320\260\320\265\321\202\320\265!\n"
+  "\320\220 \320\274\321\213 \320\270 \320\275\320\265 \321\201\320\276\320\274\320\275\320\265\320\262\320\260\320\273\320\270\321\201\321\214!"
+  font: "font"
+  id: "aaaa"
+  line_break: true
+  parent: "root"
+  layer: "text"
+  inherit_alpha: true
+  outline_alpha: 0.0
+  enabled: false
+}
 layers {
   name: "node"
 }
@@ -176,5 +196,5 @@ layers {
 }
 material: "/builtins/materials/gui.material"
 adjust_reference: ADJUST_REFERENCE_PARENT
-max_nodes: 7
+max_nodes: 8
 max_dynamic_textures: 2

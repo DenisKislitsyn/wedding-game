@@ -122,15 +122,7 @@
         :scene
       ]
       [
-        "/screens/victorina/victorina.lua"
-        :code
-      ]
-      [
         "/screens/screens.lua"
-        :code
-      ]
-      [
-        "/screens/final/final.gui_script"
         :code
       ]
       [
@@ -158,8 +150,16 @@
         :cljfx-form-view
       ]
       [
+        "/screens/victorina/victorina.lua"
+        :code
+      ]
+      [
         "/screens/final/final.gui"
         :scene
+      ]
+      [
+        "/screens/final/final.gui_script"
+        :code
       ]
     ]
     :saved-colors [
